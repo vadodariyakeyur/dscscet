@@ -1,0 +1,43 @@
+- name: Simone Staffa
+  rule: Mentor
+  img: ./simonestaffa.png
+  descs:
+    - Android and Backend developer
+    - MSc Computer Science & Engineering
+    - Community Lead
+  social:
+    email: mailto:simonestaffa96@gmail.com
+    github: https://github.com/simonestaffa
+    linkedin: https://www.linkedin.com/in/simone-staffa-8b3b79158/
+
+- name: Alejandro Ferrero
+  rule: Mentor
+  img: ./alejandroferrero.png
+  descs:
+    - Mobile and Web developer
+    - MSc Computer Science & Engineering
+    - Core Team Member
+  social:
+    github: https://github.com/alefl10
+    linkedin: https://www.linkedin.com/in/alejandro-ferrero-18b88a106/
+
+- name: Federico Lesca
+  rule: Mentor
+  img: ./federicolesca.png
+  descs:
+    - Digital Innovator
+    - MSc Management Engineering
+    - Core Team Member
+  social:
+    linkedin: https://www.linkedin.com/in/federico-lesca-b60900135/
+
+- name: Cristian Giannetti
+  rule: Mentor
+  img: ./cristiangiannetti.png
+  descs:
+    - Web developer
+    - MSc Computer Science & Engineering
+    - Core Team Member
+  social:
+    github: https://github.com/cristiangiann
+    linkedin: https://www.linkedin.com/in/cristiangiannetti/
