@@ -14,8 +14,6 @@ const WorkshopsD = () => {
         setUpcoming(resultData["upcoming"])
         setPast(resultData["past"])
       }) // set data for the number of stars
-      console.log(upcoming.length);
-      console.log(past.length)
   }, [])
   
   return (
