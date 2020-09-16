@@ -3,6 +3,7 @@ import ImgL from '../../images/parth_kapadia.jpg'
 
 export default () => (
 
+
 <section id="overview" className="section-spacer bg-very__gray">
 	<div className="row_c">
 		<div className="story">

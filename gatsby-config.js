@@ -15,10 +15,11 @@ module.exports = {
     }
   },
   plugins: [
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sharp`,    
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
+    `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -26,12 +27,11 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+		name: `teams`,
         path: `./teams/`,
-        name: 'teams',
       },
     },
     {

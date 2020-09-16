@@ -54,7 +54,7 @@ export default ({ social, mail }) => (
           <Row>
             <Col md={4} xs={6}>
               <div className="footer-widget">
-                <h4 className="footer-widget__title">Website Developers</h4>
+                <h4 className="footer-widget__title">Web Developers</h4>
                 <ul className="list-unstyled">
                   <li>
                     <a
