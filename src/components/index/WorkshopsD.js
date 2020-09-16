@@ -6,7 +6,7 @@ const WorkshopsD = () => {
   
   useEffect(() => {
     // get data from GitHub api
-    fetch(`https://dscscet.herokuapp.com/getAllEvents`
+    fetch(`https://cors-anywhere.herokuapp.com/dscscet.herokuapp.com/getAllEvents`
        )
       .then(response => response.json()) // parse JSON from request
       .then(resultData => {
