@@ -23,8 +23,7 @@ export const teamsQuery = graphql`
         social {
           whatsapp,
           instagram,
-          linkedin,
-          email
+          linkedin
         }
       }
     }

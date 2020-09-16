@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react"
+import Moment from 'react-moment'
 
 const WorkshopsD = () => {
   
-  const [upcoming,setUpcoming] = useState({})
-  const [past,setPast] = useState({})
+  const [upcoming,setUpcoming] = useState([])
+  const [past,setPast] = useState([])
   
   useEffect(() => {
     // get data from api
@@ -60,7 +61,8 @@ const WorkshopsD = () => {
 								<div className="content-header">
 								<h2 className="content-title">{event['title']}</h2>
 								  <hr />
-								  <h6>DATE : {event['date']}</h6>
+								  <h6>DATE : <Moment format="DD/MM/YYYY">{event['date']}</Moment></h6>
+								  <h6>TIME : {event['time']}</h6>
 								  <h6>VENUE : {event['location']}</h6>
 								  <p>{event['description']}</p>
 								  <a
@@ -98,8 +100,9 @@ const WorkshopsD = () => {
 								<div className="content-header">
 								<h2 className="content-title">{event['title']}</h2>
 								  <hr />
-								  <h6>DATED : {event['date']}</h6>
-								  <h6>HELD AT : {event['location']}</h6>
+								  <h6>DATED : <Moment format="DD/MM/YYYY">{event['date']}</Moment></h6>
+								  <h6>TIME : {event['time']}</h6>
+								  <h6>VENUE : {event['location']}</h6>
 								  <p>{event['description']}</p>
 								</div>
 							  </div>

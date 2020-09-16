@@ -12,18 +12,18 @@ import {
   faAt,
 } from '@fortawesome/free-solid-svg-icons'
 
-export default ({ name, role, descs, img, social }) => (
+export default ({ name, rule, descs, img, social }) => (
   <Col xs={12} md={4} className="col-md-4 col-15">
     <Card className="card event-card">
       <Card className="hovercard">
         <Card.Header />
         <div className="avatar">
-          <Img fixed={img.childImageSharp.fixed} alt={`${role} avatar`} />
+          <Img fixed={img.childImageSharp.fixed} alt={`${rule} avatar`} />
         </div>
         <div className="info">
           <div className="title">
             <h5>{name}</h5>
-            <p>{role}</p>
+            <p>{rule}</p>
           </div>
           {descs.map(desc => (
             <div key={desc} className="desc">

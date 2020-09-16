@@ -1,43 +1,97 @@
-- name: Simone Staffa
-  rule: Mentor
-  img: ./simonestaffa.png
+- name: Het Dalal
+  rule: Non-Technical Lead
+  img: ./het_dalal.jpeg
   descs:
     - Android and Backend developer
     - MSc Computer Science & Engineering
     - Community Lead
   social:
-    email: mailto:simonestaffa96@gmail.com
-    github: https://github.com/simonestaffa
-    linkedin: https://www.linkedin.com/in/simone-staffa-8b3b79158/
+    twitter: https://twitter.com/HDalal95
+    github: https://github.com/Het95
+    linkedin: https://www.linkedin.com/in/het-dalal-203461189
 
-- name: Alejandro Ferrero
-  rule: Mentor
-  img: ./alejandroferrero.png
+- name: Siddhi Jariwala
+  rule: Technical Lead
+  img: ./siddhi_jariwala.jpg
   descs:
     - Mobile and Web developer
     - MSc Computer Science & Engineering
     - Core Team Member
   social:
-    github: https://github.com/alefl10
-    linkedin: https://www.linkedin.com/in/alejandro-ferrero-18b88a106/
+    twitter: https://twitter.com/JariwalaSiddhi
+    linkedin: https://www.linkedin.com/in/siddhi-jariwala-a162161a4
 
-- name: Federico Lesca
-  rule: Mentor
-  img: ./federicolesca.png
+- name: Keyur Vadodariya
+  rule: Tech Mentor
+  img: ./keyur_vadodariya.jpg
   descs:
     - Digital Innovator
     - MSc Management Engineering
     - Core Team Member
   social:
-    linkedin: https://www.linkedin.com/in/federico-lesca-b60900135/
+    github: https://github.com/vadodariyakeyur
+    twitter: https://twitter.com/imVKeyur
+    linkedin: https://www.linkedin.com/in/keyur-vadodariya/
 
-- name: Cristian Giannetti
-  rule: Mentor
-  img: ./cristiangiannetti.png
+- name: Roma Panjabi
+  rule: Marketing Head
+  img: ./roma_panjabi.jpg
   descs:
     - Web developer
     - MSc Computer Science & Engineering
     - Core Team Member
   social:
-    github: https://github.com/cristiangiann
-    linkedin: https://www.linkedin.com/in/cristiangiannetti/
+    twitter: https://twitter.com/ropandesigner
+    linkedin: https://www.linkedin.com/in/ropandesigner
+
+- name: Kartavya Lathia
+  rule: VFX Designer
+  img: ./kartavya_lathia.jpg
+  descs:
+    - Android and Backend developer
+    - MSc Computer Science & Engineering
+    - Community Lead
+  social:
+    linkedin: https://www.linkedin.com/in/ropandesigner
+
+- name: Nikhil Jindal
+  rule: Android Expert
+  img: ./nikhil_jindal.jpeg
+  descs:
+    - Mobile and Web developer
+    - MSc Computer Science & Engineering
+    - Core Team Member
+  social:
+    linkedin: https://www.linkedin.com/in/nikhil-jindal-203b43119
+
+- name: Aadil Tajani
+  rule: ML Enthusiast
+  img: ./aadil_tajani.jpg
+  descs:
+    - Digital Innovator
+    - MSc Management Engineering
+    - Core Team Member
+  social:
+    twitter: https://twitter.com/tajani_aadil
+    linkedin: https://www.linkedin.com/in/aadil-tajani-264297177
+
+- name: Kenvi Zota
+  rule: Content Writer
+  img: ./kenvi_zota.jpeg
+  descs:
+    - Leadership
+    - Data analytics
+    - Data visualisation
+  social:
+    linkedin: http://linkedin.com/in/kenvi-zota-478b47176
+    
+- name: Bhargavv Bhagat
+  rule: Social Media Manager
+  img: ./bhargavv_bhagat.jpg
+  descs:
+    - Web developer
+    - MSc Computer Science & Engineering
+    - Core Team Member
+  social:
+    twitter: https://twitter.com/BhargavvBhagat
+    linkedin: https://www.linkedin.com/in/bhargavvbhagat
