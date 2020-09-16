@@ -42,7 +42,7 @@ export default ({
     <Header {...{ university, register }} />
     <LeadMessage />
     <Overview />
-    <Workshops/>
+    {/* <Workshops/> */}
     <WorkshopsD />
     { /* <Opportunities /> */}
     <Technologies />
