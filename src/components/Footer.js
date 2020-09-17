@@ -58,7 +58,7 @@ export default ({ social, mail }) => (
                 <ul className="list-unstyled">
                   <li>
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/in/dhruv-gopani-2636361ab"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -67,7 +67,7 @@ export default ({ social, mail }) => (
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/in/bhavik-jinjala-618b121b2"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -76,7 +76,7 @@ export default ({ social, mail }) => (
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/in/keyur-vadodariya/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

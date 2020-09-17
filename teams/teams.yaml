@@ -2,9 +2,9 @@
   rule: Non-Technical Lead
   img: ./het_dalal.jpeg
   descs:
-    - Android and Backend developer
-    - MSc Computer Science & Engineering
-    - Community Lead
+    - Data Analytics 
+    - Management
+    - Entrepreneurship
   social:
     twitter: https://twitter.com/HDalal95
     github: https://github.com/Het95
@@ -14,9 +14,9 @@
   rule: Technical Lead
   img: ./siddhi_jariwala.jpg
   descs:
-    - Mobile and Web developer
-    - MSc Computer Science & Engineering
-    - Core Team Member
+    - Machine Learning
+    - Statistical Programming
+    - Public Speaking
   social:
     twitter: https://twitter.com/JariwalaSiddhi
     linkedin: https://www.linkedin.com/in/siddhi-jariwala-a162161a4
@@ -25,9 +25,9 @@
   rule: Tech Mentor
   img: ./keyur_vadodariya.jpg
   descs:
-    - Digital Innovator
-    - MSc Management Engineering
-    - Core Team Member
+    - Bioinformatics
+    - Full-Stack Development
+    - Data Science & Machine Learning
   social:
     github: https://github.com/vadodariyakeyur
     twitter: https://twitter.com/imVKeyur
@@ -37,9 +37,9 @@
   rule: Marketing Head
   img: ./roma_panjabi.jpg
   descs:
-    - Web developer
-    - MSc Computer Science & Engineering
-    - Core Team Member
+    - Graphic Designing (Adobe Photoshop certified)
+    - Digital Marketing
+    - Leadership
   social:
     twitter: https://twitter.com/ropandesigner
     linkedin: https://www.linkedin.com/in/ropandesigner
@@ -58,9 +58,9 @@
   rule: Android Expert
   img: ./nikhil_jindal.jpeg
   descs:
-    - Mobile and Web developer
-    - MSc Computer Science & Engineering
-    - Core Team Member
+    - Android Development
+    - Machine Learning
+    - Firebase
   social:
     linkedin: https://www.linkedin.com/in/nikhil-jindal-203b43119
 
@@ -68,9 +68,9 @@
   rule: ML Enthusiast
   img: ./aadil_tajani.jpg
   descs:
-    - Digital Innovator
-    - MSc Management Engineering
-    - Core Team Member
+    - Machine Learning
+    - Python Development
+    - Competitive Programming
   social:
     twitter: https://twitter.com/tajani_aadil
     linkedin: https://www.linkedin.com/in/aadil-tajani-264297177
@@ -89,9 +89,9 @@
   rule: Social Media Manager
   img: ./bhargavv_bhagat.jpg
   descs:
-    - Web developer
-    - MSc Computer Science & Engineering
-    - Core Team Member
+    - Project Management
+    - Business Analytics
+    - Marketing Automation
   social:
     twitter: https://twitter.com/BhargavvBhagat
     linkedin: https://www.linkedin.com/in/bhargavvbhagat

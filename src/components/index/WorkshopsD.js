@@ -43,7 +43,13 @@ const WorkshopsD = () => {
 			</div>
 			<div className="tab-content">
 				<div className="tab-pane active" id="upcoming" role="tabpanel" aria-labelledby="upcoming" >
-				 {upcoming.map((event)=> (				 
+				 { upcoming.length === 0 ? (<section id="hi" className="bg-very__gray">
+												<div className="container">
+													<div className="row align-items-center">
+														<div className="ml-auto mr-auto">No upcoming events. Stay tuned...</div>
+													</div>
+												</div>
+											</section>) : (upcoming.map((event)=> (				 
 					<section id="hi" className="section-spacer bg-very__gray">
 						<div className="container">
 						  <div className="row align-items-center">
@@ -51,7 +57,7 @@ const WorkshopsD = () => {
 							  <div className="feature-list-image">
 								<img
 								  className="card-img-top"
-								  src={"https://dscscet.herokuapp.com/images/" + event['image']}
+								  src={event['image']}
 								  alt="Tech Workshop"
 								/>
 							  </div>
@@ -78,11 +84,17 @@ const WorkshopsD = () => {
 							</div>
 						  </div>
 						</div>
-					  </section>
+					  </section>)
 				 ))}
 				</div>
 				<div className="tab-pane" id="past" role="tabpanel" aria-labelledby="past" >
-				 {past.map((event)=> (				 
+				 {past.length === 0 ? (<section id="hi" className="bg-very__gray">
+												<div className="container">
+													<div className="row align-items-center"> 
+														<div className="ml-auto mr-auto">No events in past. Check out upcoming events...</div>
+													</div>
+												</div>
+											</section>) : past.map((event)=> (				 
 					<section id="hi" className="section-spacer bg-very__gray">
 						<div className="container">
 						  <div className="row align-items-center">
@@ -90,7 +102,7 @@ const WorkshopsD = () => {
 							  <div className="feature-list-image">
 								<img
 								  className="card-img-top"
-								  src={"https://dscscet.herokuapp.com/images/" + event['image']}
+								  src={event['image']}
 								  alt="Tech Workshop"
 								/>
 							  </div>
@@ -104,6 +116,14 @@ const WorkshopsD = () => {
 								  <h6>TIME : {event['time']}</h6>
 								  <h6>VENUE : {event['location']}</h6>
 								  <p>{event['description']}</p>
+								  <a
+									className="hero-button"
+									href={event['link']}
+									target="_blank"
+									rel="noopener noreferrer"
+								  >
+									<i className="fa"></i> Check out
+								  </a>
 								</div>
 							  </div>
 							</div>
