@@ -50,7 +50,7 @@ const WorkshopsD = () => {
 													</div>
 												</div>
 											</section>) : (upcoming.map((event)=> (				 
-					<section id="hi" className="section-spacer bg-very__gray">
+					<section key={event["_id"]} className="section-spacer bg-very__gray">
 						<div className="container">
 						  <div className="row align-items-center">
 							<div className="col-sm-4">
@@ -95,7 +95,7 @@ const WorkshopsD = () => {
 													</div>
 												</div>
 											</section>) : past.map((event)=> (				 
-					<section id="hi" className="section-spacer bg-very__gray">
+					<section key={event["_id"]} className="section-spacer bg-very__gray">
 						<div className="container">
 						  <div className="row align-items-center">
 							<div className="col-sm-4">

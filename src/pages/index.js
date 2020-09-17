@@ -7,7 +7,7 @@ import Technologies from '../components/index/Technologies'
 import Teams from '../components/index/Teams'
 import LeadMessage from '../components/index/LeadMessage'
 // import Faqs from '../components/index/Faqs'
-import Workshops from '../components/index/Workshops'
+//import Workshops from '../components/index/Workshops'
 import WorkshopsD from '../components/index/WorkshopsD'
  
 export const teamsQuery = graphql`
