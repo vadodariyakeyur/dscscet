@@ -1,3 +1,15 @@
+- name: Parth Kapadia
+  rule: DSC Lead
+  img: ./parth_kapadia.jpg
+  descs:
+    - AI Expert  
+    - Blockchain
+    - Cloud Computing
+  social:
+    twitter: https://twitter.com/Parth_Kap
+    github: https://github.com/Parth-Kapadia
+    linkedin: http://linkedin.com/in/parth-kapadia-1720b4170/
+
 - name: Het Dalal
   rule: Non-Technical Lead
   img: ./het_dalal.jpeg
@@ -37,7 +49,7 @@
   rule: Marketing Head
   img: ./roma_panjabi.jpg
   descs:
-    - Graphic Designing (Adobe Photoshop certified)
+    - Graphic Designing (Adobe Photoshop Certified)
     - Digital Marketing
     - Leadership
   social:
@@ -80,8 +92,8 @@
   img: ./kenvi_zota.jpeg
   descs:
     - Leadership
-    - Data analytics
-    - Data visualisation
+    - Data Analytics
+    - Data Visualisation
   social:
     linkedin: http://linkedin.com/in/kenvi-zota-478b47176
     

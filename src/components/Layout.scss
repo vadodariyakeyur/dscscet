@@ -46,7 +46,7 @@ html, body {
 }
 
 :root {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body {
@@ -121,22 +121,22 @@ body {
 }
 first-letter {
   color: #557DBF;
-  font-weight: 400
+  font-weight: 500;
 }
 
 second-letter {
   color: #FBBC12;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 third-letter {
   color: #E1382B;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 forth-letter {
   color: #189E59;
-  font-weight: 400;
+  font-weight: 500;
 }
 a {
   line-height: 1;
@@ -170,6 +170,7 @@ p {
   font-weight: normal;
   line-height: 29px;
   text-align: left;
+  font-size: 17.5px;
 }
 @media only screen and (max-width: 600px){
   .lead{
@@ -907,6 +908,10 @@ hr{
 .footer-widget__title {
   margin-bottom: 15px;
   font-size: 18px;
+}
+
+.text-center{
+	text-align: center;
 }
 
 .social-list__inline {
@@ -1772,6 +1777,7 @@ RESPONSIVES
   }
 }
 
+
 @media (max-width: 576px) {
   body {
     padding-top: 50px;
@@ -1790,6 +1796,7 @@ RESPONSIVES
   .hero-form {
     text-align: center;
   }
+  
   .section-screens__inner {
     margin-bottom: 140px;
     padding-bottom: 120px;

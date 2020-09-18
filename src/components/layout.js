@@ -25,12 +25,15 @@ export default ({ children }) => {
             whatsapp,
             instagram,
             linkedin,
-            email
+            facebook,
+            twitter,
+            youtube
           }
         }
       }
     }
   `)
+  
 
   return (
     <>

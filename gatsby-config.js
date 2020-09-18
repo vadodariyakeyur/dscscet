@@ -11,7 +11,9 @@ module.exports = {
       whatsapp: `https://chat.whatsapp.com/GC80n4zkiPV4w3TqS0hmML`,
       instagram: `https://www.instagram.com/dscscet/`,
       linkedin: `https://www.linkedin.com/company/dscscet/`,
-      email: `mailto:dsc@scet.ac.in`,
+      facebook : `https://www.facebook.com/dscscet`,
+      twitter : `https://www.twitter.com/dscscet`,
+      youtube : `https://www.youtube.com/channel/UCnnbbBchD0746kWRt3sI5-g`
     }
   },
   plugins: [

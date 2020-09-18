@@ -13,22 +13,22 @@ export default ({ university, register }) => (
             <div className="hero-title__group">
               <div className="hero-title">
                 <h2 className="zuri">
-                  Developer Student Club <br /> {university}
+                  Developer Student Clubs <br /> {university}
                 </h2>
               </div>
               <div className="Hero--Subtitle">
                 <p className="lead">
-                  Developer Student Clubs is a <first-letter>G</first-letter>
-                  <third-letter>o</third-letter>
-                  <second-letter>o</second-letter>
-                  <first-letter>g</first-letter>
-                  <forth-letter>l</forth-letter>
-                  <third-letter>e</third-letter> Developers program for
+                  Developer Student Clubs is a <first-letter><b>G</b></first-letter>
+                  <third-letter><b>o</b></third-letter>
+                  <second-letter><b>o</b></second-letter>
+                  <first-letter><b>g</b></first-letter>
+                  <forth-letter><b>l</b></forth-letter>
+                  <third-letter><b>e</b></third-letter> Developers program for
                   university students to learn
-                  <second-letter> mobile </second-letter> and{' '}
-                  <first-letter>web development skills</first-letter>,{' '}
-                  <third-letter>design thinking skills</third-letter> and{' '}
-                  <forth-letter>leadership skills.</forth-letter>
+                  <second-letter> <b>mobile</b> </second-letter> and{' '}
+                  <first-letter><b>web development skills</b></first-letter>,{' '}
+                  <third-letter><b>design thinking skills</b></third-letter> and{' '}
+                  <forth-letter><b>leadership skills.</b></forth-letter>
                 </p>
               </div>
             </div>

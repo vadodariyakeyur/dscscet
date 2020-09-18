@@ -7,11 +7,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faWhatsapp,
   faLinkedin,
-  faInstagram
+  faInstagram,
+  faFacebook,
+  faTwitter,
+  faYoutube
 } from '@fortawesome/free-brands-svg-icons'
-import {
-  faAt
-} from '@fortawesome/free-solid-svg-icons'
 
 export default ({ social, mail }) => (
   <footer className="section-spacer footer-section">
@@ -32,7 +32,10 @@ export default ({ social, mail }) => (
                 whatsapp: faWhatsapp,
                 linkedin: faLinkedin,
                 instagram: faInstagram,
-                email: faAt
+				facebook: faFacebook,
+				twitter: faTwitter,
+				youtube: faYoutube
+                
               })
                 .filter(([name]) => name in social)
                 .map(([name, icon]) => (
@@ -50,9 +53,9 @@ export default ({ social, mail }) => (
           </div>
         </Col>
 
-        <Col md={8} xs={10}>
+        <Col md={8} xs={10} className="text-center">
           <Row>
-            <Col md={4} xs={6}>
+            <Col md={6} xs={6}>
               <div className="footer-widget">
                 <h4 className="footer-widget__title">Web Developers</h4>
                 <ul className="list-unstyled">
@@ -86,7 +89,7 @@ export default ({ social, mail }) => (
                 </ul>
               </div>
             </Col>
-            <Col md={4} xs={6}>
+            <Col md={6} xs={6}>
               <div className="footer-widget">
                 <h4 className="footer-widget__title">Development Platforms</h4>
                 <ul>

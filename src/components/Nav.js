@@ -52,12 +52,15 @@ export default ({ register }) => {
             <Nav.Item>
               <Nav.Link href="#workshops">Workshops</Nav.Link>
             </Nav.Item>
-            {/* <Nav.Item>
-              <Nav.Link href="#team">Team</Nav.Link>
+            <Nav.Item>
+              <Nav.Link href="https://www.linkedin.com/company/dscscet/" target="_blank">LinkedIn</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#faqs">Faqs</Nav.Link>
-            </Nav.Item> */}
+              <Nav.Link href="https://www.instagram.com/dscscet/" target="_blank">Instagram</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="https://www.youtube.com/channel/UCnnbbBchD0746kWRt3sI5-g" target="_blank">Youtube</Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

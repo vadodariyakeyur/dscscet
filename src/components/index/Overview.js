@@ -37,7 +37,7 @@ export default () => (
           <div className="feature-card m-0">
             <div className="feature-card__body">
               <i className="fas fa-users ghost-red"></i>
-              <h4 className="feature-title">Target audience</h4>
+              <h4 className="feature-title">Target Audience</h4>
               <p>
                 DSC activities are targeted at University students and any
                 others including faculty members who want to learn development
