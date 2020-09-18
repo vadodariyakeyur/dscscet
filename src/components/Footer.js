@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
-import logo from '../images/dsc-logo-large.png'
+import logo from '../images/dsc-scet-foot.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faWhatsapp,
@@ -19,7 +19,7 @@ export default ({ social, mail }) => (
       <Row className="flex-column-reverse flex-sm-row flex-lg-row">
         <Col xs={12} md={4}>
           <div className="footer-widget first-of-footer-widget">
-            <img src={logo} alt="dsc logo" className="logo-sm mb-10" />
+            <img src={logo} alt="dsc logo" className="logo-md mb-10" />
             <p>&copy; {new Date().getFullYear()} | All Rights Reserved.</p>
             {mail && (
               <>

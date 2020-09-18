@@ -1,8 +1,14 @@
 import React, { useState, useEffect } from 'react'
-import logo from '../images/dsc-logo-large.png'
+import logo from '../images/dsc-scet-nav.png'
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faLinkedin,
+  faInstagram,
+  faYoutube
+} from '@fortawesome/free-brands-svg-icons'
 
 export default ({ register }) => {
   const [sticky, setSticky] = useState(false)
@@ -53,13 +59,13 @@ export default ({ register }) => {
               <Nav.Link href="#workshops">Workshops</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="https://www.linkedin.com/company/dscscet/" target="_blank">LinkedIn</Nav.Link>
+              <Nav.Link href="https://www.linkedin.com/company/dscscet/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="https://www.instagram.com/dscscet/" target="_blank">Instagram</Nav.Link>
+              <Nav.Link href="https://www.instagram.com/dscscet/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="https://www.youtube.com/channel/UCnnbbBchD0746kWRt3sI5-g" target="_blank">Youtube</Nav.Link>
+              <Nav.Link href="https://www.youtube.com/channel/UCnnbbBchD0746kWRt3sI5-g" target="_blank"><FontAwesomeIcon icon={faYoutube} /></Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
