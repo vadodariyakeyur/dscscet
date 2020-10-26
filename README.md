@@ -1,6 +1,6 @@
 # Google Developer Student Club Website
 
-> 🛠 This is a work in progress. The structure may be subject to change.
+> Webiste is live at http://dscscet.ml
 
 ## Install
 
